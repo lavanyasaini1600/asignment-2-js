@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* Assignment 2 | COMP1073 Client-Side JavaScript */
+
+body {
+  width: 1280px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#thumbnails li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+#thumbnails li:hover {
+  cursor: pointer;
+}
